@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Organisation & Koordination (m/w/d) – Grundl Leadership Institut</title>
+<meta name="description" content="Werde das organisatorische Rückgrat unseres Seminar- und Inhouse-Betriebs. Vollzeit 100 %, Standort Trossingen, Homeoffice möglich. Jetzt bewerben beim Grundl Leadership Institut.">
+<meta property="og:title" content="Organisation & Koordination – Seminar- und Inhouse-Betrieb">
+<meta property="og:description" content="Das organisatorische Rückgrat unseres Seminar-, Inhouse- und Impulsvortragsgeschäfts. Vollzeit 100 %, Trossingen, Homeoffice möglich.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --hellblau:#009fe3;
+    --dunkelblau:#002f5e;
+    --dunkelblau2:#001f3f;
+    --akzent:#f0a500;
+    --text:#1a1a1a;
+    --text-light:#5a5f63;
+    --white:#ffffff;
+    --offwhite:#f4f6f8;
+    --light-bg:#edf1f4;
+    --border:#e2e8ee;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:'Montserrat',Arial,sans-serif;color:var(--text);line-height:1.65;background:var(--white);-webkit-font-smoothing:antialiased}
+  h1,h2,h3{line-height:1.2;font-weight:700}
+  a{color:inherit}
+  .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+  .btn{display:inline-block;background:var(--hellblau);color:#fff;font-weight:700;font-size:1.05rem;padding:16px 34px;border-radius:8px;text-decoration:none;border:none;cursor:pointer;transition:all .2s;box-shadow:0 6px 18px rgba(0,159,227,.28)}
+  .btn:hover{background:#007fb8;transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,159,227,.35)}
+  .btn-lg{padding:18px 44px;font-size:1.15rem}
+
+  /* HEADER */
+  header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--border)}
+  .nav{display:flex;align-items:center;justify-content:space-between;height:74px}
+  .nav img{height:40px;width:auto;display:block}
+  .nav .btn{padding:11px 24px;font-size:.95rem;box-shadow:none}
+
+  /* HERO */
+  .hero{background:linear-gradient(135deg,var(--dunkelblau2) 0%,var(--dunkelblau) 60%,#013b74 100%);color:#fff;padding:90px 0 100px;position:relative;overflow:hidden}
+  .hero::after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;background:radial-gradient(circle,rgba(0,159,227,.35),transparent 70%);border-radius:50%}
+  .hero-inner{position:relative;z-index:2;max-width:820px}
+  .eyebrow{display:inline-block;letter-spacing:3px;text-transform:uppercase;font-size:.78rem;font-weight:700;color:var(--hellblau);margin-bottom:22px}
+  .hero h1{font-size:clamp(2.1rem,5vw,3.4rem);font-weight:800;margin-bottom:20px}
+  .hero h1 span{color:var(--hellblau)}
+  .hero .lead{font-size:1.25rem;color:#d6e2ef;font-weight:500;margin-bottom:34px;max-width:680px}
+  .badges{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:40px}
+  .badge{display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);padding:9px 18px;border-radius:30px;font-size:.92rem;font-weight:600}
+  .badge svg{width:17px;height:17px;flex:none}
+
+  /* SECTIONS */
+  section.block{padding:84px 0}
+  section.alt{background:var(--offwhite)}
+  .kicker{text-align:center;letter-spacing:3px;text-transform:uppercase;font-size:.78rem;font-weight:700;color:var(--hellblau);margin-bottom:12px}
+  h2{font-size:clamp(1.7rem,3.5vw,2.4rem);text-align:center;color:var(--dunkelblau);margin-bottom:16px}
+  .intro-text{max-width:760px;margin:0 auto;text-align:center;font-size:1.18rem;color:var(--text-light);font-weight:500}
+
+  .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:22px;margin-top:52px}
+  .card{background:#fff;border:1px solid var(--border);border-radius:14px;padding:30px 28px;transition:all .2s}
+  .card:hover{box-shadow:0 14px 34px rgba(0,47,94,.09);transform:translateY(-3px);border-color:#cfe0ee}
+  .card .num{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:10px;background:var(--light-bg);color:var(--hellblau);font-weight:800;font-size:1.2rem;margin-bottom:18px}
+  .card h3{font-size:1.12rem;color:var(--dunkelblau);margin-bottom:10px}
+  .card p{font-size:.98rem;color:var(--text-light)}
+
+  .tasklist{max-width:820px;margin:48px auto 0;display:grid;gap:14px}
+  .task{display:flex;gap:16px;align-items:flex-start;background:#fff;border:1px solid var(--border);border-radius:12px;padding:20px 24px}
+  .task svg{width:24px;height:24px;flex:none;color:var(--hellblau);margin-top:2px}
+  .task p{font-size:1.02rem}
+
+  /* HIGHLIGHT BLOCKS */
+  .highlights{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:24px;margin-top:52px}
+  .hl{background:linear-gradient(160deg,var(--dunkelblau),#013b74);color:#fff;border-radius:16px;padding:34px 30px}
+  .hl h3{font-size:1.2rem;margin-bottom:14px;color:#fff}
+  .hl h3 span{display:block;font-size:.78rem;letter-spacing:2px;text-transform:uppercase;color:var(--hellblau);margin-bottom:6px;font-weight:700}
+  .hl p{color:#cfdcea;font-size:1rem}
+
+  /* PROFILE */
+  .profile{max-width:760px;margin:48px auto 0;display:grid;gap:16px}
+  .pitem{display:flex;gap:16px;align-items:flex-start}
+  .pitem .dot{width:30px;height:30px;border-radius:50%;background:var(--hellblau);flex:none;display:flex;align-items:center;justify-content:center}
+  .pitem .dot svg{width:16px;height:16px;color:#fff}
+  .pitem p{font-size:1.08rem;font-weight:500}
+
+  /* FORM */
+  .apply{background:linear-gradient(135deg,var(--dunkelblau2),var(--dunkelblau));color:#fff;padding:84px 0}
+  .apply h2{color:#fff}
+  .apply .intro-text{color:#cfdcea}
+  .formcard{background:#fff;color:var(--text);border-radius:18px;padding:40px;max-width:720px;margin:44px auto 0;box-shadow:0 24px 60px rgba(0,0,0,.28)}
+  .formrow{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  .field{margin-bottom:20px}
+  .field.full{grid-column:1/-1}
+  label{display:block;font-weight:600;font-size:.92rem;margin-bottom:7px;color:var(--dunkelblau)}
+  label .opt{font-weight:500;color:var(--text-light);font-size:.84rem}
+  input,textarea{width:100%;font-family:inherit;font-size:1rem;padding:13px 15px;border:1.5px solid var(--border);border-radius:9px;background:var(--offwhite);transition:all .15s}
+  input:focus,textarea:focus{outline:none;border-color:var(--hellblau);background:#fff;box-shadow:0 0 0 3px rgba(0,159,227,.12)}
+  textarea{resize:vertical;min-height:120px}
+  .filebox{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  .filebtn{display:inline-flex;align-items:center;gap:9px;font-family:inherit;font-weight:600;font-size:.95rem;background:var(--dunkelblau);color:#fff;padding:12px 22px;border-radius:8px;cursor:pointer;transition:background .15s}
+  .filebtn:hover{background:var(--hellblau)}
+  .filebtn svg{width:18px;height:18px}
+  .filename{font-size:.9rem;color:var(--text-light)}
+  input[type=file]{position:absolute;width:1px;height:1px;opacity:0;overflow:hidden}
+  .hint{font-size:.88rem;color:#6b7178;margin-top:7px}
+  .formcard .btn{width:100%;margin-top:8px}
+  .consent{display:flex;gap:11px;align-items:flex-start;font-size:.85rem;color:var(--text-light);margin:4px 0 8px}
+  .consent input{width:auto;margin-top:3px}
+  #formMsg{display:none;padding:16px 18px;border-radius:10px;margin-bottom:20px;font-weight:600}
+  #formMsg.ok{display:block;background:#e7f7ec;color:#1b7a3d;border:1px solid #bfe6cb}
+  #formMsg.err{display:block;background:#fdecea;color:#c0392b;border:1px solid #f3c0ba}
+
+  /* FOOTER */
+  footer{background:var(--dunkelblau2);color:#9fb3c8;padding:54px 0 40px;text-align:center}
+  footer img{height:42px;margin-bottom:22px;filter:brightness(0) invert(1);opacity:.95}
+  footer .fcontact{color:#cfdcea;font-weight:500;margin-bottom:8px}
+  footer a{color:var(--hellblau);text-decoration:none}
+  footer .legal{font-size:.82rem;margin-top:18px;line-height:1.8}
+
+  @media(max-width:640px){
+    .formrow{grid-template-columns:1fr}
+    .formcard{padding:28px 22px}
+    section.block{padding:60px 0}
+    .hero{padding:64px 0 72px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <img src="grundl-logo-trans.png" alt="Grundl Leadership Institut">
+    <a href="#bewerben" class="btn">Jetzt bewerben</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="wrap hero-inner">
+    <span class="eyebrow">Karriere beim Grundl Leadership Institut</span>
+    <h1>Organisation &amp; Koordination<br><span>Seminar- und Inhouse-Betrieb</span></h1>
+    <p class="lead">Du bist das organisatorische Rückgrat unseres Seminar-, Inhouse- und Impulsvortragsgeschäfts – von der Auftragsannahme bis zum sauberen Projektabschluss.</p>
+    <div class="badges">
+      <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 7h-9M14 17H5M17 3l3 4-3 4M7 13l-3 4 3 4"/></svg> Vollzeit 100 %</span>
+      <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-5.2-7-11a7 7 0 0114 0c0 5.8-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg> Standort Trossingen</span>
+      <span class="badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1H4a1 1 0 01-1-1z"/><path d="M9 21v-6h6v6"/></svg> Homeoffice möglich</span>
+    </div>
+    <a href="#bewerben" class="btn btn-lg">In 2 Minuten bewerben</a>
+  </div>
+</section>
+
+<!-- INTRO -->
+<section class="block">
+  <div class="wrap">
+    <p class="intro-text">Du sorgst für reibungslose, wirtschaftliche und hochwertige Abläufe, entlastest Trainerteam und Geschäftsführung – und schaffst so die Grundlage für weiteres Wachstum.</p>
+  </div>
+</section>
+
+<!-- ERGEBNISVERANTWORTUNG -->
+<section class="block alt">
+  <div class="wrap">
+    <div class="kicker">Deine Ergebnisverantwortung</div>
+    <h2>Worauf es ankommt</h2>
+    <div class="cards">
+      <div class="card"><div class="num">1</div><h3>Termin- &amp; Kapazitätsplanung</h3><p>Neue Aufträge werden zügig mit abgestimmten Terminvorschlägen bedient, die Auslastung ist transparent, Überlast wird früh erkannt.</p></div>
+      <div class="card"><div class="num">2</div><h3>Fehlerfreie Projektabwicklung</h3><p>Inklusive Controlling von Zeit-, Material- und Reisekosten und sauberer Umsatzabstimmung.</p></div>
+      <div class="card"><div class="num">3</div><h3>Belastbare Datenqualität</h3><p>Im Projektmanagement-Tool als Basis für verlässliche Auswertungen.</p></div>
+      <div class="card"><div class="num">4</div><h3>Reibungslose Kundenprozesse</h3><p>Von Onboarding bis Nachgang – Kunden und Teilnehmer fühlen sich jederzeit gut betreut.</p></div>
+      <div class="card"><div class="num">5</div><h3>Stetig effizienter</h3><p>Abläufe werden Schritt für Schritt schlanker und stärker automatisiert.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- AUFGABEN -->
+<section class="block">
+  <div class="wrap">
+    <div class="kicker">Deine Aufgaben</div>
+    <h2>Dein Tagesgeschäft</h2>
+    <div class="tasklist">
+      <div class="task"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><p>Auftragseingang steuern, Projekte zuordnen und Folgeaufgaben auslösen (Projektmanagement-Tool).</p></div>
+      <div class="task"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><p>Kapazitäts- und Terminplanung des Trainerteams: blocken, bestätigen, übertragen.</p></div>
+      <div class="task"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><p>Vollständige Inhouse-Abwicklung: Organisation, Reise, Material, Verpflegung, Zeiterfassung, Controlling.</p></div>
+      <div class="task"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><p>Weiterberechenbare Material- und Reisekosten erfassen und zur Weiterberechnung an die Buchhaltung übergeben.</p></div>
+      <div class="task"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><p>Teilnehmerbefragungen durchführen, Zugänge zu Analyse-Instrumenten und digitaler Lernwelt verwalten.</p></div>
+      <div class="task"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg><p>Seminar-Jahresplanung und Impulsvorträge organisatorisch begleiten.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- HIGHLIGHTS -->
+<section class="block alt">
+  <div class="wrap">
+    <div class="kicker">Das macht die Rolle besonders</div>
+    <h2>Mehr als Organisation</h2>
+    <div class="highlights">
+      <div class="hl"><h3><span>Kundenkontakt</span>Nah an den Menschen</h3><p>Die Rolle bringt ein hohes Maß an direktem Kundenkontakt mit sich – von der ersten Abstimmung bis zum Projektabschluss. Du trittst professionell und ungezwungen auf, sodass sich der Kunde jederzeit verstanden und kompetent betreut fühlt.</p></div>
+      <div class="hl"><h3><span>Coaching-Pakete &amp; offene Seminare</span>Eigener Verantwortungsbereich</h3><p>Du verantwortest die vollständige Abwicklung der Coaching-Pakete und der offenen Seminare – von der Organisation über die saubere Abstimmung bis zur kontinuierlichen Verbesserung der Abläufe im Sinne von Leading Simple©.</p></div>
+      <div class="hl"><h3><span>Hinterfragen &amp; mit KI verbessern</span>Prozesse der Zukunft</h3><p>Du hast den Ehrgeiz, die eigenen Abläufe immer wieder zu hinterfragen. Erkannte Verbesserungspotenziale setzt Du gemeinsam mit unserem KI-Verantwortlichen um – von automatisierten Routineabläufen bis zu schnelleren, verlässlicheren Prozessen.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROFIL -->
+<section class="block">
+  <div class="wrap">
+    <div class="kicker">Dein Profil</div>
+    <h2>Das bringst Du mit</h2>
+    <div class="profile">
+      <div class="pitem"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></span><p>Strukturierte, mitdenkende Organisationsstärke; Freude an Zahlen, Prozessen und Details.</p></div>
+      <div class="pitem"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></span><p>Erste Koordinations- oder Organisationserfahrung.</p></div>
+      <div class="pitem"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></span><p>Sicher in Projekt-/Orga-Tools und MS Office; hohe digitale Affinität, offen für KI-Tools.</p></div>
+      <div class="pitem"><span class="dot"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6L9 17l-5-5"/></svg></span><p>Selbstständig, verlässlich, serviceorientiert und klar in der Kommunikation.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- BEWERBEN -->
+<section class="apply" id="bewerben">
+  <div class="wrap">
+    <div class="kicker">Klingt nach Dir?</div>
+    <h2>Dann lass uns reden.</h2>
+    <p class="intro-text">Bewirb Dich schnell und unkompliziert – ein Video ist ausdrücklich willkommen, aber kein Muss. Wir melden uns zeitnah bei Dir.</p>
+
+    <form class="formcard" id="bewerbungForm" action="https://formsubmit.co/jochen.hummel@grundl.de" method="POST" enctype="multipart/form-data">
+      <div id="formMsg"></div>
+
+      <!-- FormSubmit-Konfiguration -->
+      <input type="hidden" name="_subject" value="Neue Bewerbung: Organisation & Koordination (Koordinator-Seite)">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="_honey" style="display:none">
+
+      <div class="formrow">
+        <div class="field"><label for="vorname">Vorname</label><input type="text" id="vorname" name="Vorname" required></div>
+        <div class="field"><label for="nachname">Nachname</label><input type="text" id="nachname" name="Nachname" required></div>
+      </div>
+      <div class="formrow">
+        <div class="field"><label for="email">E-Mail</label><input type="email" id="email" name="E-Mail" required></div>
+        <div class="field"><label for="telefon">Telefon</label><input type="tel" id="telefon" name="Telefon" required></div>
+      </div>
+      <div class="field full">
+        <label for="motivation">Deine Nachricht an uns</label>
+        <textarea id="motivation" name="Nachricht" placeholder="Erzähl uns kurz, warum diese Rolle zu Dir passt." required></textarea>
+      </div>
+      <div class="field full">
+        <label for="video">Video-Link <span class="opt">(optional – z. B. YouTube, Loom, Vimeo)</span></label>
+        <input type="url" id="video" name="Video-Link" placeholder="https://...">
+        <p class="hint">Lust, Dich kurz vorzustellen? Verlinke hier ein kurzes Bewerbungsvideo.</p>
+      </div>
+      <div class="field full">
+        <label>Lebenslauf / Unterlagen <span class="opt">(optional, PDF – max. 10 MB)</span></label>
+        <div class="filebox">
+          <label for="lebenslauf" class="filebtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 16V4M7 9l5-5 5 5M4 20h16"/></svg> Datei auswählen</label>
+          <input type="file" id="lebenslauf" name="Unterlagen" accept=".pdf,.doc,.docx">
+          <span class="filename" id="fileName">Keine Datei ausgewählt</span>
+        </div>
+      </div>
+
+      <label class="consent"><input type="checkbox" required> Ich bin damit einverstanden, dass meine Angaben zur Bearbeitung meiner Bewerbung gespeichert und verarbeitet werden.</label>
+
+      <button type="submit" class="btn btn-lg">Bewerbung absenden</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <img src="grundl-logo-trans.png" alt="Grundl Leadership Institut">
+    <p class="fcontact">Grundl Leadership Institut GmbH · Richard-Kohler-Weg 8 · 78647 Trossingen</p>
+    <p class="fcontact">+49 7425 20997-0 · <a href="https://www.grundl.de">www.grundl.de</a></p>
+    <p class="legal">HRB 783133 · Amtsgericht Stuttgart · Geschäftsführung: Boris Grundl und Alexandra Heine<br>
+    <a href="https://www.grundl.de/impressum/">Impressum</a> &nbsp;·&nbsp; <a href="https://www.grundl.de/datenschutz/">Datenschutz</a></p>
+  </div>
+</footer>
+
+<script>
+  // AJAX-Versand ohne Seitenwechsel; Fallback auf normalen POST falls JS blockiert
+  const form = document.getElementById('bewerbungForm');
+  const msg = document.getElementById('formMsg');
+  const fileInput = document.getElementById('lebenslauf');
+  const fileName = document.getElementById('fileName');
+  fileInput.addEventListener('change', ()=>{ fileName.textContent = fileInput.files.length ? fileInput.files[0].name : 'Keine Datei ausgewählt'; });
+  form.addEventListener('submit', async function(e){
+    e.preventDefault();
+    const btn = form.querySelector('button[type=submit]');
+    btn.disabled = true; btn.textContent = 'Wird gesendet …';
+    try{
+      const res = await fetch(form.action, { method:'POST', body:new FormData(form), headers:{'Accept':'application/json'} });
+      if(res.ok){
+        form.reset();
+        msg.className='ok';
+        msg.textContent='Vielen Dank für Deine Bewerbung! Wir haben sie erhalten und melden uns zeitnah bei Dir.';
+        msg.scrollIntoView({behavior:'smooth',block:'center'});
+      } else { throw new Error('bad status'); }
+    }catch(err){
+      msg.className='err';
+      msg.textContent='Das Absenden hat leider nicht geklappt. Bitte versuche es erneut oder schreibe uns direkt an jochen.hummel@grundl.de.';
+    }finally{
+      btn.disabled=false; btn.textContent='Bewerbung absenden';
+    }
+  });
+</script>
+</body>
+</html>
